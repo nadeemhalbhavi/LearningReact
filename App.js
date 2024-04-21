@@ -1,6 +1,10 @@
+import React from "react"
+import ReactDOM from "react-dom/client"
+
+
 const parent = React.createElement("div",{id:"parent"},
 [React.createElement("div",{id:"child"},[
-    React.createElement("h1",{},"im inside the h1 Tag"),
+    React.createElement("h1",{},"zohan from h1 tag"),
     React.createElement("h2",{},"im inside the h2 Tag"),
 
 ])])
